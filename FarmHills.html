@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Padayon</title>
+  <link rel="icon" href="img/Icon-logo.jpg" type="image/jpg">
+  <link rel="stylesheet" type="text/css" href="css/FarmHills.css">
+  
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!--GOOGLE FONT - OPEN SANS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!--boxicons link-->
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body>
+  
+  <!-- Fixed play/pause button -->
+  <div id="audioControl" class="play"></div>
+
+  <!-- Audio player -->
+  <audio id="musicPlayer" src="music/padayon-bg-music.mp3" autoplay>
+    
+  </audio>
+
+  <header>
+    <a href="index.html" class="logo">PADA<span>YON</span></a>
+
+    <ul class="navbar">
+      <li><a href="#" onclick="scrollByPixels(0)">Home</a></li>
+      <li><a href="#" onclick="scrollByPixels(600)">Images</a></li>
+      <li><a href="#" onclick="scrollByPixels(1150)">Rooms</a></li>
+      <li><a href="#" onclick="scrollByPixels(2940)">Reviews</a></li>
+      <li><a href="#" onclick="scrollByPixels(3940)">Navigate</a></li>
+    </ul>
+
+    <div class="h-right">
+      <a href="#">Follow us</a>
+      <a href="https://www.instagram.com/_ptsc.ph" target="_blank"><i class="ri-instagram-fill"></i></a>
+      <a href="#"><i class="ri-twitter-x-fill"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=61553470202755" target="_blank"><i class="ri-facebook-fill"></i></a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+
+  </header>
+
+  <div class="dashboard">
+  <section class="home">
+    <div class="home-text">
+      <h5>Ang</h5>
+      <h1>Farm <br> Hills</h1>
+      <p>Events Place l Restaurant | Cafe | Bed & Breakfast <br> Contact us to book your dream wedding and <br>turn the page to happily ever after.  </p>
+      <a href="#" onclick="toggleHiddenDiv()" class="btn">Learn More</a>
+    </div>
+
+    <div class="hidden-div" id="hiddenDiv">
+      <!-- Content for the hidden div goes here -->
+      <p style="text-align: justify;"><span> Farm Hills Garden in Silang </span>invites you to
+         a serene haven nestled amidst nature's embrace. This 
+         idyllic destination seamlessly blends the charm of a 
+         lush garden with the delight of gastronomic pleasures, 
+         making it a haven for nature lovers and culinary 
+         enthusiasts alike. The garden showcases a diverse 
+         tapestry of flora, creating a captivating backdrop for 
+         leisurely walks and moments of serenity. Explore the 
+         grounds to discover an array of blossoms, each 
+         contributing its unique allure to the tranquil landscape.
+        <br>
+        The culinary experience at Farm Hills Garden elevates 
+        your visit, offering a menu brimming with delectable 
+        dishes inspired by local flavors. From savory indulgences
+        to sweet temptations, the restaurant promises a culinary 
+        journey that caters to every taste bud. Whether you're 
+        seeking an intimate dinner surrounded by nature's beauty 
+        or a family gathering filled with culinary delights, the 
+        restaurant provides a delightful setting for all occasions.
+        
+      </p>
+  </section>
+  </div> <!-- DASHBOARD -->
+
+  <section class="feature">
+    <div class="feature-content">
+
+      <div class="row">
+        <div class="row-img">
+          <img src="img/FarmHillsCafe.jpg">
+        </div>
+        <h4>Cafe and Restaurant</h4>
+      </div>
+
+      <div class="row">
+        <div class="row-img">
+          <img src="img/FarmHillsEventsRoom.jpg">
+        </div>
+        <h4>Events</h4>
+      </div>
+
+      <div class="row">
+        <div class="row-img">
+          <img src="img/FarmHillsRoom3.png">
+        </div>
+        <h4>Rest</h4>
+      </div>
+
+      <div class="row">
+        <div class="row-img">
+          <img src="img/FarmHillsGameRoom.png">
+        </div>
+        <h4>Play</h4>
+      </div>
+
+      <div class="row">
+        <div class="row-img">
+          <img src="img/FarmHillsSwimmingPool2.jpg">
+        </div>
+        <h4>Swim</h4>
+      </div>
+
+    </div>
+  </section>
+
+  <!--NEXT PART-->
+
+  <section class="tour">
+    <div class="center-text">
+      <h2><span>Im</span>a<span>g</span>es</h2>
+    </div>
+    </section>
+
+  <div class="body2">
+
+  <div class="image-gallery">
+
+    <div class="image-box">
+      <img src="img/farm-small2.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <img src="img/farm-small1.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <img src="img/farm-small0.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <img src="img/farm-small3.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <img src="img/farm-small4.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <img src="img/farm-small5.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <img src="img/farm-small6.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <img src="img/farm-small7.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <img src="img/farm-small8.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <img src="img/farm-small9.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <img src="img/farm-small10.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <img src="img/farm-small11.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div> <!--DIV OF BODY2-->
+
+<!--NEXT PART-->
+<!--FOOD MENU SECITON-->
+
+<section class="menu-section">
+  <h2 class="our-food-menu"><span>Rooms</span> and Suites</h2>
+  <div class="menu-container">
+      <div class="menu-item">
+          <img src="img/FarmHillsRoom1.png">
+          <h3>Superior Room</h3>
+          <p>Starts at <span>Php 6,000</span> per night<br>
+            <span>BED: </span>1 KING or QUEEN<br>
+            <span>CAPACITY:</span>2adults,2kids(+1extra person)
+          </p>
+      </div>
+      <div class="menu-item">
+          <img src="img/FarmHillsRoom2.png">
+          <h3>Deluxe Room</h3>
+          <p>Starts at <span>Php 7,000</span> per night<br>
+            <span>BED: </span>1 KING or QUEEN<br>
+            <span>CAPACITY:</span>2adults,2kids(+1extra pax)
+          </p>
+      </div>
+      <div class="menu-item">
+        <img src="img/FarmHillsRoom3.png">
+        <h3>Family Room</h3>
+        <p>Starts at <span>Php 9,500</span> per night<br>
+          <span>BED: </span>1 KING and 2 QUEEN<br>
+          <span>CAPACITY:</span>4adults,2kids(+2 extra pax)
+        </p>
+    </div>
+      <div class="menu-item">
+          <img src="img/FarmHillsRoom4.png">
+          <h3>Family Suite</h3>
+          <p>Starts at <span>Php 12,000</span> per night<br>
+          <span>BED: </span>4 QUEEN<br>
+          <span>CAPACITY:</span>6adults,2kids(+2 extra pax)
+        </p>
+      </div>
+      
+  </div>
+</section>
+
+
+<!-- THE FACILITIES -->
+<section class="menu-section">
+  <h2 class="our-food-menu"><span>Facilities</span></h2>
+  <div class="menu-container">
+
+      <div class="menu-item">
+        <img src="img/FarmHillsCafe.jpg">
+        <h3>Cafe and Restaurant</h3>
+        <p>The perfect spot for food and plant lovers, our “jungle” cafe & restaurant serves delectable meals.<br>
+          <span>Operating Hours:</span> 7AM-7PM Monday to Thursday | 7AM-8PM Friday to Sunday
+        </p>
+      </div>
+      <div class="menu-item">
+          <img src="img/FarmHillsEventsRoom.jpg">
+          <h3>Events</h3>
+          <p>The best venue for you to host intimate parties and exclusive events.<br>  
+            <a href="mailto:farmhillsgarden@gmail.com"> farmhillsgarden@gmail.com </a><br>
+            <a href="tel:+639275017577"> 0927 501 7578</a>
+          </p>
+      </div>
+      
+      <div class="menu-item">
+        <img src="img/FarmHillsGameRoom.png">
+        <h3>Game Room</h3>
+        <p>We have a few sports and recreation facilities available for a minimal fee.<br>
+          <span>Billiards: </span>Php 200/hr<br>
+          <span>Operating Hours:</span> 9am - 10pm
+        </p>
+      </div>
+      <div class="menu-item">
+        <img src="img/FarmHillsSwimmingPool2.jpg">
+        <h3>Swimming Pool</h3>
+        <p>Go for a swim with your kids at our outdoor pool that comes with a separate children’s pool.<br>
+        <span>Operating Hours:</span> 8am - 10pm
+      </p>
+      </div>
+      
+  </div>
+</section>
+
+
+
+<!--NEXT PART-->
+<!--CUSTOMER REVIEWS SECTION-->
+
+<div class="hero">
+  <h1>Customer <span>Reviews</span></h1>
+  <div class="review-box">
+    <div id="slide">
+
+      <div class="card">
+        <div class="profile">
+          <img src="img2/farm-review2.jpg">
+          <div>
+            <h3>Jane Mahilum Lugo</h3>
+            <p>Review from Facebook</p>
+          </div>  
+        </div>
+        <p>Be mesmerized with this RUSTIC CHIC wedding at Farm Hills Garden. Surrounded by lush foliage, it’s the perfect setting for that picturesque garden ceremony!🍂
+         
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="profile">
+          <img src="img2/farm-review1.jpg">
+          <div>
+            <h3>Camila Kaori</h3>
+            <p>Review from Facebook</p>
+          </div>  
+        </div>
+        <p>Count the memories not the calories. 🧡
+          📍Farm Hills Garden 🪴😌
+        </p>
+      </div>
+
+      
+
+      <div class="card">
+        <div class="profile">
+          <img src="img2/farm-review3.jpg">
+          <div>
+            <h3>Beia Antonio-Enerio</h3>
+            <p>Review from Facebook</p>
+          </div>  
+        </div>
+        <p>Sobrang totoo lahat ng sinabi mo Sir, onti na lang iisipin kasi almost complete na kay Farm Hills, and grabe ung mga nirefer niyong suppliers ang huhusay!
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="profile">
+          <img src="img2/farm-review4.jpg">
+          <div>
+            <h3>Zara Lopez</h3>
+            <p>Review from Facebook</p>
+          </div>  
+        </div>
+        <p>Best staycation ever at Farm Hills Garden ✨
+        </p>
+      </div>
+
+    </div>
+    <div class="sidebar">
+      <img src="img/yellow-up-arrow.jpg" id="upArrow">
+      <img src="img/yellow-down-arrow.jpg" id="downArrow">
+    </div>
+
+  </div>
+</div> 
+
+<!--LOCATION SECTION-->
+<section class="tour">
+  <div class="center-text">
+    <h2><span>Loc</span>ation</h2>
+  </div>
+  </section>
+ 
+<div class="GPS-image">
+  <iframe class="iframeMaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3868.7858136570535!2d120.9824182386246!3d14.148686186342967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd79871e87c969%3A0x73a05d49502391f8!2sFarm%20Hills%20Garden!5e0!3m2!1sen!2sph!4v1700098531441!5m2!1sen!2sph" width="850" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<section class="Culture">
+  
+  <div class="Culture-text">
+    <h5>Address</h5>
+    <h2>Farm Hills Garden, Brgy. Ulat 4118</h2>
+    <p>From Santa Rosa-Tagaytay Road (Tagaytay Bound) > turn to Pulong Bunga Road > then turn to the street beside House of Maharlika</p>
+    <a href="https://www.google.com/maps/place/Farm+Hills+Garden/@14.1486862,120.9824182,17z/data=!3m1!4b1!4m9!3m8!1s0x33bd79871e87c969:0x73a05d49502391f8!5m2!4m1!1i2!8m2!3d14.1486862!4d120.9849878!16s%2Fg%2F11gb3jrtd9?entry=ttu" target="_blank" class="btn">Go now</a>
+  </div>
+
+  <div class="Culture-text" id="OperationHours">
+    <h5>Operation Hours</h5>
+    <h2>9:00am 8:00pm EVERYDAY</h2>
+    <p>We offer Events Place | Restaurant | Cafe | Bed & Breakfast | Game Room | Swimming Pool </p>
+    <a class="btn" href="https://booking.farmhillsgarden.com/4.35/" target="_blank">Book Now!</a>
+  </div>
+
+  <div class="Culture-text">
+    <h5>Socials</h5>
+    <h2 id="gmail-h2">Facebook</h2>
+    <a href="https://www.facebook.com/farmhillsgarden" target="_blank"><button class="facebook-button">Facebook</button></a>
+    <h2 id="gmail-h2">Gmail</h2>
+    <div class="farmhillsMail">
+      <div>
+        <p>Bed & Breakfast</p>
+        <a href="mailto:farmhillsgarden.reservations@gmail.com" target="_blank"><button class="gmail-button">Gmail</button></a>
+      </div>
+      <div>
+        <p>Weddings & Events</p>
+        <a href="mailto:farmhillsgarden@gmail.com" target="_blank"><button class="gmail-button">Gmail</button></a>
+      </div>
+      <div>
+        <p>Cafe & Restaurants</p>
+        <a href="mailto:fhgcafereservations@gmail.com" target="_blank"><button class="gmail-button">Gmail</button></a>
+      </div>
+    </div>
+    
+    <h2 id="gmail-h2">Contact number</h2>
+    <div class="farmhillsMail">
+      <div>
+        <p>Bed & Breakfast</p>
+        <a href="tel:+639275017577" class="call-button"><button class="call-button">Call</button></a>
+      </div>
+      <div>
+        <p>Weddings & Events</p>
+        <a href="tel:+639275017578" class="call-button"><button class="call-button">Call</button></a>
+      </div>
+      <div>
+        <p>Cafe & Restaurants</p>
+        <a href="tel:+639275017575" class="call-button"><button class="call-button">Call</button></a>
+      </div>
+
+
+    
+    
+  </div>
+
+  
+</section>
+  
+  <script>
+
+    var slide = document.getElementById("slide");
+    var upArrow = document.getElementById("upArrow");
+    var downArrow = document.getElementById("downArrow");
+
+    let x = 0;
+
+    upArrow.onclick = function(){
+      if(x < 0){
+        x = x + 300;
+        slide.style.top = x + "px";
+      }
+    };
+
+    downArrow.onclick = function () {
+      if(x > "-900"){
+        x = x - 300;
+        slide.style.top = x + "px";
+      }
+      
+    };
+
+
+    function scrollToPixel(pixel) {
+      // Scroll the scrollbar to the specified pixel position
+      window.scroll(0, pixel);
+    }
+
+    function scrollByPixels(pixels) {
+      event.preventDefault();
+
+      window.scrollTo(0, pixels);
+
+    } 
+
+
+    var isHidden = true; // Initially, the div is hidden
+
+    function toggleHiddenDiv() {
+        var hiddenDiv = document.getElementById("hiddenDiv");
+
+        if (isHidden) {
+            hiddenDiv.style.display = "block";
+            isHidden = false;
+        } else {
+            hiddenDiv.style.display = "none";
+            isHidden = true;
+        }
+    }
+
+
+    const header = document.querySelector("header");
+
+    window.addEventListener("scroll", function() {
+    header.classList.toggle("sticky", window.scrollY > 60)
+    });
+
+    let menu = document.querySelector('#menu-icon');
+    let navbar = document.querySelector('.navbar');
+
+    menu.onclick = () => {
+    menu.classList.toggle('bx-x');
+    navbar.classList.toggle('open');
+    };
+
+
+    var audio = document.getElementById('musicPlayer');
+var audioControl = document.getElementById('audioControl');
+
+audioControl.addEventListener('click', function () {
+    if (audio.paused) {
+        audio.play();
+        audioControl.classList.remove('play');
+        audioControl.classList.add('pause');
+    } else {
+        audio.pause();
+        audioControl.classList.remove('pause');
+        audioControl.classList.add('play');
+    }
+});
+
+  </script>
+
+
+</body>
+</html>

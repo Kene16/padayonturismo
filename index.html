@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Padayon</title>
+  <link rel="icon" href="img/Icon-logo.jpg" type="image/jpg">
+  <link rel="stylesheet" class="favicon" type="text/css" href="css/style.css">
+
+  <!--GOOGLE FONT - OPEN SANS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!--boxicons link-->
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Fixed play/pause button -->
+  <div id="audioControl" class="play"></div>
+
+  <!-- Audio player -->
+  <audio id="musicPlayer" src="music/padayon-bg-music.mp3" autoplay>
+    
+  </audio>
+
+  <header>
+    <a href="#" class="logo">PADA<span>YON</span></a>
+
+    <ul class="navbar">
+      <li><a href="index.html" onclick="scrollByPixels(0)">Home</a></li>
+      <li><a href="#" onclick="scrollByPixels(600)">Activities</a></li>
+      <li><a href="#" onclick="scrollByPixels(1000)">Iteneraries</a></li>
+      <li><a href="#" onclick="scrollByPixels(1850)">Popular Tours</a></li>
+      <li><a href="#" onclick="scrollByPixels(2700)">Delicacy</a></li>
+    </ul>
+
+    <div class="h-right">
+      <a href="#">Follow us</a>
+      <a href="https://www.instagram.com/_ptsc.ph" target="_blank"><i class="ri-instagram-fill"></i></a>
+      <a href="#" class="comingSoon"><i class="ri-twitter-x-fill"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=61553470202755
+      " target="_blank"><i class="ri-facebook-fill"></i></a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+
+  </header>
+
+  <section class="home">
+    <div class="home-text">
+      <h5>Let's</h5>
+      <h1>Plan your <br> own travel</h1>
+      <p>Silang, officially the Municipality of Silang, is a 1st class municipality <br>  in the province of Cavite, Philippines.</p>
+      <a href="#" onclick="toggleHiddenDiv()" class="btn">Learn More</a>
+    </div>
+
+    <div class="hidden-div" id="hiddenDiv">
+ 
+      <p><span>Padayon Tourismo</span> ng Silang, Cavite" is the name of this product. It is a website that provides essential information, online services, guidelines, and instructions. It is a user-friendly website that will appeal to casual readers since the product is well-designed and more accessible to tourists. It also has a feature that expands or shrinks the screen depending on the device used to access the website. It would also be convenient because tourists will not require printed copies of their guides around Silang. It includes a description of each location to give travelers a sense of what to expect, as well as photographs that would guarantee to entice potential tourists. It also includes a route guide or direct Google Maps of each provided place to save all tourists from getting lost and to show them the simplest way to get there.</p>
+  </section>
+
+  <section class="feature">
+    <div class="feature-content">
+
+      <div class="row">
+        <div class="row-img">
+          <img src="img/nap1.jpg">
+        </div>
+        <h4>Pottery</h4>
+      </div>
+
+      <div class="row">
+        <div class="row-img">
+          <img src="img/nap2.jpg">
+        </div>
+        <h4>Take Pictures</h4>
+      </div>
+
+      <div class="row">
+        <div class="row-img">
+          <img src="img/nap3.jpg">
+        </div>
+        <h4>Sight seeing</h4>
+      </div>
+
+      <div class="row">
+        <div class="row-img">
+          <img src="img/nap4.jpg">
+        </div>
+        <h4>Eat</h4>
+      </div>
+
+      <div class="row">
+        <div class="row-img">
+          <img src="img/nap5.jpg">
+        </div>
+        <h4>Wedding Venues</h4>
+      </div>
+
+    </div>
+  </section>
+
+  <!--NEXT PART-->
+  <section class="holiday">
+    <div class="holiday-img">
+      <img src="img/Itinerary-image.png">
+    </div>
+
+    <div class="holiday-text">
+      <h5>Mabuhay!</h5>
+      <p>This itinerary will help you navigate and be guided by the places that Silang has to offer, and with that, we have provided you with some activities and services that those places can offer. With the organized order of places that you should go to when you visit Silang Cavite, we hope that you enjoy and treasure this moment. We are glad to be able to help, and as always, our Padayon team is always here to help Maraming Salamat!</p>
+      <h5><span class="holiday-email-us">email us your experience</span></h5>
+      
+      <a href="mailto:Business.padayonturismo@gmail.com" class="btn">Send Feedback</a>
+    </div>
+  </section>
+
+  <!--NEXT PART-->
+  <section class="tour">
+    <div class="center-text">
+      <h2>Popular Tours</h2>
+    </div>
+
+    <div class="tour-content">
+      <div class="box">
+        <a href="PerlasNgSilang.html"><img src="img/perlaspreview.jpg"></a>
+        <h6></h6>
+        <h4>Perlas ng Silang</h4>
+      </div>
+
+      <div class="box">
+        <a href="FarmHills.html"><img src="img/farmhillspreview.jpg"></a>
+        <h6></h6>
+        <h4>Farm Hills</h4>
+      </div>
+
+      <div class="box">
+        <a href="RiseAndShine.html"><img src="img/riseandshinepreview.jpg"></a>
+        <h6></h6>
+        <h4>Rise and Shine Pottery</h4>
+      </div>
+
+    </div>
+
+    <div class="center-btn">
+      
+    </div>
+  </section>
+
+  <!--NEXT PART-->
+  <section class="Culture">
+    <div class="Culture-text">
+      <h5>Cecilia's Buco Pie, Tarts, and Pasalubong</h5>
+      <h2>Bring home the flavors of your journey, share the love with each bite.</h2>
+      <p>Buko pie, tart, distinctive barquillos, wild local honey, syvannas, baked items, garlic peanuts, chicharon, and other wonderful pasalubong are among our favorite products or pasalubong from Cecilia's buko pie and pasalubong.</p>
+      <a href="#" onclick="toggleHiddenDiv2()" class="btn">See Best Sellers</a>
+      <a href="https://www.google.com/maps/place/Cecilia's+Pasalubong+Buco+pie+and+tarts/@14.2303963,120.9709066,20z/data=!4m14!1m7!3m6!1s0x33bd7f5a6378f42d:0x6bf72b25d1ea27bf!2sSilang+Village+Square!8m2!3d14.2305635!4d120.9710296!16s%2Fg%2F11qb3cclb3!3m5!1s0x33bd7f907c885247:0xc53954b108b0b47f!8m2!3d14.2302636!4d120.9710452!16s%2Fg%2F11l6tr9mw_?entry=ttu" target="_blank" class="btn">Go now</a>
+    </div>
+
+    <div class="Culture-img">
+      <img src="img/bucopie1.jpg">
+    </div>
+  </section>
+
+
+  <!-- HIDDEN SECTION -->
+
+  <div class="hidden-div2" id="hiddenDiv2">
+    <div class="menu-container">
+      <div class="menu-item">
+          <img src="img/cecilias-product1.jpg">
+          <h3>Buco Pie</h3>
+          <p></p>
+      </div>
+      <div class="menu-item">
+          <img src="img/cecilias-product3.jpg">
+          <h3>Egg Pie</h3>
+          <p></p>
+      </div>
+      <div class="menu-item">
+          <img src="img/cecilias-product4.jpg.png">
+          <h3>Pineapple Pie</h3>
+          <p></p>
+      </div>
+      <div class="menu-item">
+          <img src="img/cecilias-product5.jpg">
+          <h3>Ube Pie</h3>
+          <p></p>
+      </div>
+      <div class="menu-item">
+        <img src="img/cecilias-product2.jpg">
+        <h3>Tart</h3>
+        <p></p>
+      </div>
+     
+  </div>
+  </div>
+
+  <!--NEXT PART
+  <section class="newsletter">
+    <div class="newsletter-content">
+      <div class="newsletter-text">
+        <h2>Ready to explore?</h2>
+        <p>Let's go on vacation, make your day</p>
+      </div>
+
+      <form action="">
+        <input type="email" placeholder="Enter your email..." required>
+        <input type="submit" value="Get started" class="btn">
+      </form>
+    </div>
+  </section>
+  -->
+
+  <!--FOOTER SECTION-->
+  <section class="footer">
+    <div class="footer-box">
+      <h3>Services</h3>
+      <a href="#" class="comingSoon">Email Marketing</a>
+      <a href="#" class="comingSoon">Campaigns</a>
+      <a href="#" class="comingSoon">Brandings</a>
+      <a href="#" class="comingSoon">Offline</a>
+    </div>
+
+    <div class="footer-box">
+      <h3>About</h3>
+      <a href="#" class="comingSoon">Our story</a>
+      <a href="#" class="comingSoon">Benefits</a>
+      <a href="#" class="comingSoon">Team</a>
+      <a href="#" class="comingSoon">Careers</a>
+    </div>
+
+    <div class="footer-box">
+      <h3>Help</h3>
+      <a href="#" class="comingSoon">FAQs</a>
+      <a href="#" class="comingSoon">Contact us</a>
+    </div>
+
+    <div class="footer-box">
+      <h3>Social</h3>
+      <div class="social">
+        <a href="https://www.instagram.com/_ptsc.ph" target="_blank"><i class="ri-instagram-fill"></i></a>
+        <a href="#" class="comingSoon"><i class="ri-twitter-x-fill"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61553470202755
+        " target="_blank"><i class="ri-facebook-fill"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!--Copyright Section-->
+  <div class="copyright">
+    <p>Copyright 2023 By PKD</p>
+  </div>
+  
+
+  <script>
+
+const header = document.querySelector("header");
+
+window.addEventListener("scroll", function() {
+  header.classList.toggle("sticky", window.scrollY > 60)
+});
+
+let menu = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
+
+menu.onclick = () => {
+  menu.classList.toggle('bx-x');
+  navbar.classList.toggle('open');
+};
+
+
+
+    function scrollByPixels(pixels) {
+      event.preventDefault();
+
+      window.scrollTo(0, pixels);
+
+    } 
+
+
+    var isHidden = true; // Initially, the div is hidden
+
+    function toggleHiddenDiv() {
+        var hiddenDiv = document.getElementById("hiddenDiv");
+
+        if (isHidden) {
+            hiddenDiv.style.display = "block";
+            isHidden = false;
+        } else {
+            hiddenDiv.style.display = "none";
+            isHidden = true;
+        }
+    }
+
+
+
+    var isHidden = true; // Initially, the div is hidden
+
+    function toggleHiddenDiv() {
+        var hiddenDiv = document.getElementById("hiddenDiv");
+
+        if (isHidden) {
+            hiddenDiv.style.display = "block";
+            isHidden = false;
+        } else {
+            hiddenDiv.style.display = "none";
+            isHidden = true;
+        }
+    }
+
+
+    var isHidden2 = true; // Initially, the div is hidden
+
+    function toggleHiddenDiv2() {
+        event.preventDefault();
+        var hiddenDiv2 = document.getElementById("hiddenDiv2");
+
+        if (isHidden2) {
+            hiddenDiv2.style.display = "block";
+            isHidden2 = false;
+        } else {
+            hiddenDiv2.style.display = "none";
+            isHidden2 = true;
+        }
+    }
+
+    var audio = document.getElementById('musicPlayer');
+    var audioControl = document.getElementById('audioControl');
+
+    audioControl.addEventListener('click', function () {
+      if (audio.paused) {
+        audio.play();
+        audioControl.classList.remove('play');
+        audioControl.classList.add('pause');
+      } else {
+        audio.pause();
+        audioControl.classList.remove('pause');
+        audioControl.classList.add('play');
+     }
+  });
+    
+
+// Get all elements with the class "comingSoon"
+var comingSoonLinks = document.querySelectorAll('.comingSoon');
+
+// Add a click event listener to each element
+comingSoonLinks.forEach(function(link) {
+  link.addEventListener('click', function() {
+    // Display an alert message
+    alert('Coming Soon');
+  });
+});
+
+  </script>
+  
+</body>
+</html>

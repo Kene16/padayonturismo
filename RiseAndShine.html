@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Padayon</title>
+  <link rel="icon" href="img/Icon-logo.jpg" type="image/jpg">
+  <link rel="stylesheet" type="text/css" href="css/RiseAndShine.css">
+  
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!--GOOGLE FONT - OPEN SANS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!--boxicons link-->
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Fixed play/pause button -->
+  <div id="audioControl" class="play"></div>
+
+  <!-- Audio player -->
+  <audio id="musicPlayer" src="music/padayon-bg-music.mp3" autoplay>
+    
+  </audio>
+  
+  <header>
+    <a href="index.html" class="logo">PADA<span>YON</span></a>
+
+    <ul class="navbar">
+      <li><a href="#" onclick="scrollByPixels(0)">Home</a></li>
+      <li><a href="#" onclick="scrollByPixels(600)">Images</a></li>
+      <li><a href="#" onclick="scrollByPixels(1150)">Rates</a></li>
+      <li><a href="#" onclick="scrollByPixels(2940)">Reviews</a></li>
+      <li><a href="#" onclick="scrollByPixels(3940)">Navigate</a></li>
+    </ul>
+
+    <div class="h-right">
+      <a href="#">Follow us</a>
+      <a href="https://www.instagram.com/_ptsc.ph" target="_blank"><i class="ri-instagram-fill"></i></a>
+      <a href="#"><i class="ri-twitter-x-fill"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=61553470202755" target="_blank"><i class="ri-facebook-fill"></i></a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+
+  </header>
+
+  <div class="dashboard">
+  <section class="home">
+    <div class="home-text">
+      <h5>Ang</h5>
+      <h1>Rise  and <br> Shine</h1>
+      <p>Pottery Workshops, Ceramics and Tiles Store, Handmade pots and plates. <br>   Open every wednesdays - sundays from 8am-6:30pm. </p>
+      <a href="#" onclick="toggleHiddenDiv()" class="btn">Learn More</a>
+    </div>
+
+    <div class="hidden-div" id="hiddenDiv">
+      <!-- Content for the hidden div goes here -->
+      <p><span>Rise and Shine Pottery</span> invites you to a 
+        creative oasis where pottery crafting meets a warm, 
+        inviting atmosphere. Catering to art enthusiasts and 
+        those seeking a therapeutic escape, the studio features 
+        an array of pottery creations, each telling a story of 
+        individual flair.<br>
+        Step into the world of Rise and Shine Pottery, where 
+        spinning wheels and the scent of clay set the stage for 
+        an immersive experience. The studio offers workshops for 
+        all skill levels, allowing visitors to shape clay into 
+        personalized masterpieces.<br>
+        Beyond the potter's wheel, Rise and Shine Pottery hosts 
+        exhibitions featuring local artists' works, adding to 
+        the studio's vibrant ambiance.<br>
+        Rejuvenate at our cozy cafe with freshly brewed coffee 
+        and artisanal pastries. Whether it's a solitary moment 
+        or a gathering with fellow art enthusiasts, Rise and 
+        Shine Pottery provides a charming setting.<br>
+        Rise and Shine Pottery 
+        invites you to awaken your creativity. Join us in a 
+        space where artistic passion meets the pleasure of 
+        creating something beautiful, leaving you with lasting 
+        memories.
+      
+      </p>
+  </section>
+  </div> <!-- DASHBOARD -->
+
+  <section class="feature">
+    <div class="feature-content">
+
+      <div class="row">
+        <div class="row-img">
+          <img src="img2/rise-nap1.jpg">
+        </div>
+        <h4>Pottery Class</h4>
+      </div>
+
+      <div class="row">
+        <div class="row-img">
+          <img src="img2/rise-nap2.jpg">
+        </div>
+        <h4>Team Building</h4>
+      </div>
+
+      <div class="row">
+        <div class="row-img">
+          <img src="img2/rise-nap3.jpg">
+        </div>
+        <h4>Tools and Equipments</h4>
+      </div>
+
+      <div class="row">
+        <div class="row-img">
+          <img src="img2/rise-nap4.jpg">
+        </div>
+        <h4>Custom Designs</h4>
+      </div>
+
+      <div class="row">
+        <div class="row-img">
+          <img src="img2/rise-nap5.jpg">
+        </div>
+        <h4>Give aways</h4>
+      </div>
+
+    </div>
+  </section>
+
+  <!--NEXT PART-->
+
+  <section class="tour">
+    <div class="center-text">
+      <h2><span>Im</span>a<span>g</span>es</h2>
+    </div>
+    </section>
+
+  <div class="body2">
+
+  <div class="image-gallery">
+
+    <div class="image-box">
+      <img src="img/rise-small1.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <img src="img/rise-small12.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <img src="img/rise-small2.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <img src="img/rise-small3.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <img src="img/rise-small4.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <img src="img/rise-small5.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <img src="img/rise-small6.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <img src="img/rise-small7.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <img src="img/rise-small8.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <img src="img/rise-small9.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <img src="img/rise-small10.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="image-box">
+      <img src="img/rise-small11.jpg" alt="img.png">
+      <div class="overlay">
+        <div class="details">
+          <h3 class="title">
+            <a href="#">Your Title</a> 
+          </h3>
+          <span class="category">
+            <a href="#">Category</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div> <!--DIV OF BODY2-->
+
+<!--NEXT PART-->
+<!--FOOD MENU SECITON-->
+
+<section class="menu-section">
+  <h2 class="our-food-menu"><span>Rates</span> and Packages</h2>
+  <div class="menu-container">
+      <div class="menu-item">
+          <img src="img2/rise-rate0.jpg">
+          <h3 style="margin-bottom:0.5rem;">POTTERY EXPERIENCE <span>
+          1800Php/ PAX</span>(min 2 pax to sign up) </h3>
+          <p style="text-align: justify;">Create your own masterpiece. Single session 1-1.5 hr. 1 finished work. Combination of wheel throwing and handbuilding class. Glazing and firing services are already included. Output: Mug, personalised pot, bowl, decors.
+          </p>
+      </div>
+      <div class="menu-item">
+          <img src="img2/rise-rate2.jpg">
+          <h3 style="margin-bottom:0.5rem;">BASIC WHEEL THROWING OR HANDBUILDING WORKSHOP<span> 2500 per pax</span></h3>
+          <p style="text-align: justify;">Single session is 3 hours. You will be able to make 3 pots/cups of your own design. Your works will also be something you can use later on as food vessels or high quality ceramic decor arts. Glazing and firing services are already included. 
+          </p>
+      </div>
+      <div class="menu-item">
+        <img src="img2/rise-rate3.jpg">
+        <h3 style="margin-bottom:0.5rem;">GROUP SPECIAL WORKSHOP (6 pax and above) <span>2500 per pax</span></h3>
+        <p style="text-align: justify;">Workshop will already be a combination of wheel throwing and handbuilding (already at 50% discount @2500 per pax, instead of 5k).
+          3 hours class. You will be able to make 4 outputs of your own design (2 on wheel throwing, 2 on handbuilding). Your works will also be something you can use later on as food vessels or high quality ceramic decor arts. Glazing and firing services are already included.
+        </p>
+      </div>
+      
+      
+  </div>
+</section>
+
+
+
+
+
+
+<!--NEXT PART-->
+<!--CUSTOMER REVIEWS SECTION-->
+
+<div class="hero">
+  <h1>Customer <span>Reviews</span></h1>
+  <div class="review-box">
+    <div id="slide">
+
+      <div class="card">
+        <div class="profile">
+          <img src="img/rise-review2.jpg">
+          <div>
+            <h3>Abegail Requinta</h3>
+            <p>From Facebook</p>
+          </div>  
+        </div>
+        <p>we enjoyed the pottery sessions. very accomodating 
+          ang Mentor and other staffs who assisted to us. 🥰<br>
+          Thank you and Rise and shine😊
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="profile">
+          <img src="img/rise-review1.jpg">
+          <div>
+            <h3>Chris Abasolo</h3>
+            <p>from Facebook</p>
+          </div>  
+        </div>
+        <p>Peaceful and beautiful place to learn pottery
+        </p>
+      </div>
+
+      
+
+      <div class="card">
+        <div class="profile">
+          <img src="img/rise-review3.jpg">
+          <div>
+            <h3>Margaret Lee</h3>
+            <p>from Facebook</p>
+          </div>  
+        </div>
+        <p>👍👍👍 Had a private workshop with them . me and 
+          my kids had fun learning . Thank you .
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="profile">
+          <img src="img/rise-review4.jpg">
+          <div>
+            <h3>Clarissa Escalona</h3>
+            <p>from Facebook</p>
+          </div>  
+        </div>
+        <p>The staff our very accommodating. It was such a good experience!
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="profile">
+          <img src="img2/rise-review1.jpg">
+          <div>
+            <h3>Bernadette Libranda Ramirez</h3>
+            <p>from Facebook</p>
+          </div>  
+        </div>
+        <p>Fun day learning a new craft - stoneware pottery! Thank you Teacher Ray at Rise and Shine Pottery! Looking forward to our next class!
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="profile">
+          <img src="img2/rise-review2.jpg">
+          <div>
+            <h3>Sofia Aglipay</h3>
+            <p>from Facebook</p>
+          </div>  
+        </div>
+        <p>Pottery day with mom 🪴🏺✨Rise and Shine Pottery
+        </p>
+      </div>
+
+    </div>
+    <div class="sidebar">
+      <img src="img2/red-arrow-up.png" id="upArrow">
+      <img src="img2/red-arrow-down.png" id="downArrow">
+    </div>
+
+  </div>
+</div> 
+
+<!--LOCATION SECTION-->
+<section class="tour">
+  <div class="center-text">
+    <h2><span>Loc</span>ation</h2>
+  </div>
+  </section>
+ 
+<div class="GPS-image">
+  <iframe class="iframeMaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3868.148914749673!2d120.97729957433941!3d14.186054887093025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd797b0667bb4f%3A0x64f53096c3027d87!2sRise%20and%20Shine%20Pottery%20Philippines!5e0!3m2!1sen!2sph!4v1700113242403!5m2!1sen!2sph" width="850" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<section class="Culture">
+  
+  <div class="Culture-text">
+    <h5>Address</h5>
+    <h2>196 Pulong Saging Road,</h2>
+    <p>From Santa Rosa-Tagaytay Road (Tagaytay Bound) > turn to Barangay Ulat > then just drive straight ahead until Gotoplus Bikers > Take left road named Pulong Bunga Rd then straight ahead you'll see Rise and Shine Pottery on your right.</p>
+    <a href="https://maps.app.goo.gl/XQJJ8HdAy2Zz7tjn9" target="_blank" class="btn">Go now</a>
+  </div>
+
+  <div class="Culture-text" id="OperationHours">
+    <h5>Operation Hours</h5>
+    <h2>8:00am - 6:30pm <br>Wed-Sun</h2>
+    <p>Pottery Workshops
+      Pottery Shop
+      Ceramics and Tiles Store
+      Handmade pots and plates. Come and discover your
+      creativity here at Rise and Shine Pottery!</p>
+    
+  </div>
+
+  <div class="Culture-text">
+    <h5>Socials</h5>
+    <h2 >Facebook</h2>
+    <a href="https://www.facebook.com/riseandshinepottery" target="_blank"><button class="facebook-button">Facebook</button></a>
+    <h2 >Website</h2>
+    <div class="farmhillsMail">
+      <a href="https://potteryrise-and-shine.business.site/?fbclid=IwAR0YLvkoUFQdI6SYV-It7W1EC9HcstiregxbtUs5rmhrk7yycAxgJFEQ140" target="_blank"><button class="call-button" id="rise-website-btn">Go now!</button></a>
+    </div>
+    <h2 >Contact number</h2>
+    <div class="farmhillsMail"> 
+      <a href="tel:+639155559300" class="call-button"><button class="call-button">Call</button></a>
+  </div>
+
+  
+</section>
+  
+  <script>
+
+    var slide = document.getElementById("slide");
+    var upArrow = document.getElementById("upArrow");
+    var downArrow = document.getElementById("downArrow");
+
+    let x = 0;
+
+    upArrow.onclick = function(){
+      if(x < 0){
+        x = x + 300;
+        slide.style.top = x + "px";
+      }
+    };
+
+    downArrow.onclick = function () {
+      if(x > "-1500"){
+        x = x - 300;
+        slide.style.top = x + "px";
+      }
+      
+    };
+
+
+    function scrollToPixel(pixel) {
+      // Scroll the scrollbar to the specified pixel position
+      window.scroll(0, pixel);
+    }
+
+    function scrollByPixels(pixels) {
+      event.preventDefault();
+
+      window.scrollTo(0, pixels);
+
+    } 
+
+
+    var isHidden = true; // Initially, the div is hidden
+
+    function toggleHiddenDiv() {
+        var hiddenDiv = document.getElementById("hiddenDiv");
+
+        if (isHidden) {
+            hiddenDiv.style.display = "block";
+            isHidden = false;
+        } else {
+            hiddenDiv.style.display = "none";
+            isHidden = true;
+        }
+    }
+
+
+    const header = document.querySelector("header");
+
+    window.addEventListener("scroll", function() {
+    header.classList.toggle("sticky", window.scrollY > 60)
+    });
+
+    let menu = document.querySelector('#menu-icon');
+    let navbar = document.querySelector('.navbar');
+
+    menu.onclick = () => {
+    menu.classList.toggle('bx-x');
+    navbar.classList.toggle('open');
+    };
+
+
+    var audio = document.getElementById('musicPlayer');
+    var audioControl = document.getElementById('audioControl');
+
+    audioControl.addEventListener('click', function () {
+    if (audio.paused) {
+        audio.play();
+        audioControl.classList.remove('play');
+        audioControl.classList.add('pause');
+    } else {
+        audio.pause();
+        audioControl.classList.remove('pause');
+        audioControl.classList.add('play');
+    }
+    });
+
+
+  
+
+
+
+  </script>
+
+
+</body>
+</html>
