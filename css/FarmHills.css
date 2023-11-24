@@ -1037,7 +1037,7 @@ header.sticky{
   }
 
   .hidden-div p{
-    font-size: 11px;
-    line-height: normal;
+    font-size: 12px;
+    line-height: rem;
   }
 }
