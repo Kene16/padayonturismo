@@ -1046,4 +1046,9 @@ header.sticky{
     font-size: 11px;
     line-height: normal;
   }
+
+  .hidden-div p{
+    font-size: 12px;
+    line-height: normal;
+  }
 }
